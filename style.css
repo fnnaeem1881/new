@@ -1,0 +1,270 @@
+*{margin:0px;padding:0px;}
+html {
+  scroll-behavior: smooth!important;
+}
+
+img{max-width:100%}
+header#header {
+    background: #000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid .1px #ddd;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+.logo {width: 175px;float: left;padding: 10px;}
+.menu {
+    float: right;
+    width: 850px;
+    padding-top: 25px;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: solid 1px #ddd;
+    /* padding: 20px; */
+}
+
+.menu ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.menu ul li a:hover {
+    color: tomato;
+    transition: .5s;
+}
+section{
+	
+	padding-top:80px;
+}
+section#Home{
+    background-image:url(https://i.ibb.co/vzjWfK9/home.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 100vh;
+    padding-top: 80px;
+    background-attachment: fixed;
+
+}
+.home-title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 150px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+
+
+section#about {
+    background: #ddd;
+	overflow:hidden;
+	height:450px;
+	}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+	padding-top:30px;
+	
+	}
+	.home-title p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.title b {
+    color: #fff;
+    font-size: 45px;
+}
+.about-left {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-right {
+    float: left;
+    padding: 20px;
+    width: 45%;
+}
+.color-home {
+    height: 100vh;
+    background: rgb(165 165 165 / 50%);
+    margin: -10px;
+    padding-bottom: 22px;
+}
+.typed-cursor{
+	font-size:30px;
+	
+}
+section#contact {
+    height: 450px;
+    width: 100%;
+    background: #000;
+}
+.title p {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.contact-content form {
+    text-align: center;
+}
+.contact-content form input {
+    padding: 8px;
+    width: 250px;
+    background: transparent;
+    border: navajowhite;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #ddd;
+	color:#fff;
+}
+.contact-content textarea {
+    padding: 8px;
+    width: 250px;
+    background: transparent;
+    border: navajowhite;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #ddd;
+	height: 65px;
+	color:#fff;
+}
+.contact-content button {
+    padding: 7px;
+    width: 100px;
+    color: #fff;
+    background: tomato;
+    border: navajowhite;
+    border-radius: 3px;
+}
+section#about .title b {
+    color: tomato;
+    border-bottom: solid 1px;
+}
+section#services {
+    width: 100%;
+    height: 100vh;
+    background:url(https://i.ibb.co/px86PmR/services.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.services-box {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.services-content {
+    overflow: hidden;
+    margin-top: 30px;
+}
+.services-box-title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #12630dde;
+    padding-bottom: 10px;
+}
+.services-box-pra {text-align: justify;padding: 10px;font-size: 15px;font-weight: 500;font-family: cursive;}
+.services-box:hover {
+    transform: rotate3d(2, 0, 0, 30deg);
+    transition: .5s;
+}
+.services-box-title h3:hover {
+   color:tomato;
+    transition: .5s;
+    transform: translate3d(10px, 10px, 10px);
+}
+.services-box-pra p {
+    color: #615858;
+}.services-box-pra p:hover {
+    color: tomato;
+    transition: .5s;
+}
+section#gallary .title b {
+    color: tomato;
+   
+}
+.gallary-box ul li {
+    width: 32%;
+    float: left;
+    margin: 4px;
+}
+.gallary-box ul li img {
+    width: 100%;
+    height: 200px;
+}
+.gallary-box-1 ul li {
+    width: 24%;
+    float: left;
+    margin: 3px;
+}
+section#gallary {
+    height: 800px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.gallary-box-1 {overflow: hidden;}.gallary-box{overflow: hidden;}
+.gallary-content {
+    margin-top: 30px;
+}
+section#footer {
+    background: #020202;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-top: solid 1px;
+    font-family: monospace;
+}
+.menu ul li:last-child {
+    border: navajowhite;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 19px;
+}
+
+.footer ul li a i {
+    width: 17px;
+    border: solid 1px #dddddd73;
+    height: 18px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.footer ul li a i:hover {
+    color: #000;
+    background:#ddd;
+    transition:.5s;
+    transform: translateY(-15px);
+}
